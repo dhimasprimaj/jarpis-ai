@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "express": "^4.21.0",
-    "imagekit": "^5.2.0"
-  }
-}
