@@ -8,7 +8,7 @@ import UserChats from "./models/userChats.js";
 import { requireAuth } from '@clerk/express'
 import ImageKit from "imagekit";
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 const app = express();
 
 const __filename = fileURLToPath(import.meta.url);
